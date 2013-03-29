@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FindPlaces</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Menu Items -->
+    <string name="action_places">Places</string>
+    <string name="action_search">Search</string>
+
+    <!-- Places Activity -->
+    <string name="places_heading">Places</string>
+
+    <!-- Places Result Activity -->
+    <string name="places_result_place_name">Place name</string>
+    <string name="places_result_place_address">Place address</string>
+    <string name="places_result_distance">Distance</string>
+    
+    <string name="places_detail_name">Name</string>
+    <string name="places_detail_phone">Phone</string>
+    <string name="places_detail_blog">Go To Blog</string>
+    
+    <!-- Search Strings here -->
+<string name="search_string">pizza</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/search_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_vertical"
+        android:gravity="fill_vertical"
+        android:text="@string/places_detail_name" />
+
+    <TextView
+        android:id="@+id/search_row_address"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/search_text_view"
+        android:gravity="fill_vertical"
+        android:text="@string/places_detail_phone" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/search_row_address"
+        android:gravity="fill_vertical"
+        android:text="@string/places_detail_blog" />
+
+    <TextView
+        android:id="@+id/place_detail_id_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/search_text_view"
+        android:layout_alignBottom="@+id/search_text_view"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="48dp"
+        android:text="@string/places_detail_name" />
+
+    <TextView
+        android:id="@+id/place_detail_id_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/search_row_address"
+        android:layout_alignBottom="@+id/search_row_address"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="48dp"
+        android:text="@string/places_detail_phone" />
+
+    <TextView
+        android:id="@+id/place_detail_id_blog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="48dp"
+        android:clickable="true"
+        android:onClick="goToUrl"
+        android:text="@string/places_detail_blog" />
+
+</RelativeLayout>

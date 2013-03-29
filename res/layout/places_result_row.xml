@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/places_result_row_placename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/places_result_place_name" />
+
+    <TextView
+        android:id="@+id/places_result_row_result_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/places_result_row_placename"
+        android:layout_below="@+id/places_result_row_placename"
+        android:layout_marginTop="17dp"
+        android:text="@string/places_result_place_address" />
+
+    <TextView
+        android:id="@+id/places_result_row_result_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/places_result_row_result_address"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:gravity="right"
+        android:text="@string/places_result_distance" />
+
+</RelativeLayout>
+
