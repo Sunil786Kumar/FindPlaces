@@ -26,6 +26,7 @@ public class PlacesResultDisplayActivity extends Activity {
 	 * public API to take String from other Activities
 	 */
 	public static String mSelectedPlaceCategory=null;
+	public String test = null;
 	
 	/*
 	 * Other things required are longitude and latitude and callingClass
